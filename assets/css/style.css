@@ -18,6 +18,66 @@ body {
 /*========== common ========== */
 .content {
     width: 1440px;
+    max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*========== common ========== */
+.header.fixed {
+    position: sticky;
+    top: -44px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 8px;
+}
+
+.header .nav {
+    margin-left: auto;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.nav a {
+    font-size: 1.6rem;
+    padding: 8px 20px;
+    color: #2f3a3b;
+}
+
+.nav a:hover,
+.nav li.active a {
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.action {
+    margin-left: 133px;
+}
+
+.action .sign-in {
+    padding: 8px 24px;
+    font-size: 1.6rem;
+    color: #494949;
+}
+
+.action .action-btn {
+    padding: 12px 24px;
+    font-size: 1.6rem;
+    color: #1ebfc1;
+    border: 1px solid #1ebfc1;
+    border-radius: 6px;
+}
+
+.action .action-btn:hover {
+    color: #fff;
+    background: #1ebfc1;
 }
