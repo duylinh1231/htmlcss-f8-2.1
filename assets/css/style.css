@@ -472,3 +472,30 @@ a {
     background: #1ebfc1;
     border-radius: 50%;
 }
+
+/*========== Stats ==========*/
+.stats {
+    margin-top: 389px;
+}
+
+.stats-value {
+    display: flex;
+    margin-left: 154px;
+    width: 862px;
+    justify-content: space-between;
+}
+
+.stats-value strong {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 93px;
+    text-align: center;
+    color: #0d1111;
+}
+
+.stats-value .item .desc {
+    margin-top: 11px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #767e7e;
+}
