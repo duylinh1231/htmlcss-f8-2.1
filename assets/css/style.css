@@ -485,6 +485,10 @@ a {
     justify-content: space-between;
 }
 
+.stats-value .item {
+    text-align: center;
+}
+
 .stats-value strong {
     font-weight: 700;
     font-size: 6.2rem;
