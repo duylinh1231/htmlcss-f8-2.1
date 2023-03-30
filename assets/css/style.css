@@ -687,3 +687,46 @@ a {
     background: #fff;
     border: 1px solid #2ac9bf;
 }
+
+/*========== Footer ==========*/
+
+.footer {
+    margin-top: 130px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row .heading {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2e2e2e;
+}
+
+.footer .row .list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 26px;
+}
+
+.footer .row .list a {
+    font-size: 1.6rem;
+    color: #535353;
+}
+
+.footer .row .social-icon {
+    margin-left: 5px;
+    margin-right: 13px;
+}
+
+/* Copyright */
+
+.footer .copyright {
+    margin-top: 80px;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #b0b5b4;
+}
