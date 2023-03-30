@@ -644,3 +644,46 @@ a {
     object-fit: cover;
     border-radius: 50%;
 }
+
+/*========== Started ==========*/
+
+.started {
+    margin-top: 130px;
+    background: #def6f5;
+    padding: 76px 0 88px;
+}
+
+.started .body {
+    display: flex;
+    align-items: center;
+}
+
+.started .info .heading {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 63px;
+    color: #070707;
+}
+
+.started .info .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    color: #767e7e;
+}
+
+.started .body .btn {
+    margin-left: 410px;
+    padding: 20px 41px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ffffff;
+    background: #2ac9bf;
+    border-radius: 14px;
+}
+
+.started .body .btn:hover {
+    color: #2ac9bf;
+    background: #fff;
+    border: 1px solid #2ac9bf;
+}
